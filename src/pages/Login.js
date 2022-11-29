@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 
 import api from "../util/api";
 
+
 const Login = () => {
   const [loader, setLoader] = useState(false);
   const initialValues = {
@@ -102,8 +103,11 @@ const Login = () => {
                   )}
                 </div>
                 <Link to="/forgotPassword" className="">
-                  Don't Remember Your Password
+                 Forgot Password?
                 </Link>
+                
+                
+                
               </form>
             );
           }}

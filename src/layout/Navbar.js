@@ -41,14 +41,7 @@ const Navbar = () => {
                 >
                   Register
                 </NavLink>
-                <NavLink
-                  to="/forgotPassword"
-                  className={(navData) =>
-                    navData.isActive ? "nav-link active" : "nav-link"
-                  }
-                >
-                  ForgotPassword
-                </NavLink>
+                
               </div>
             </div>
           </div>
